@@ -42,7 +42,7 @@ and stitch them into a seamless panorama.
 ### Results
 
 - **Result 1**
-   - **The number of coins detected for this image is correct: 8**<br> ![Result1](https://github.com/keshavv79/VR_Assignment1_Varsha_IMT2022506/blob/main/ResultsForGit/Result1.png) 
+   - **The number of coins detected for this image is correct: 8**<br> ![Result1](ResultsForGit/Result1.png) 
 
 - **Result 2**
    - **The number of coins detected for this image is correct: 2**<br> ![Result2](https://github.com/keshavv79/VR_Assignment1_Varsha_IMT2022506/blob/main/ResultsForGit/Result2.png)

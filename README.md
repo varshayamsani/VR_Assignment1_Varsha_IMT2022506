@@ -113,7 +113,7 @@ Follow these steps to run the code in your terminal:
 
 - Navigate to the directory containing the Python files:
   ```
-  cd /VR_Assignment1_Keshav_IMT
+  cd /VR_Assignment1_Varsha_IMT2022506
   ```
 - To run the coin segmentation script:
   ```

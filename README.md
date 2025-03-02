@@ -1,4 +1,4 @@
-# AIM 825- Sec-B: Visual Recognition
+# AIM 825- Sec-A: Visual Recognition
 
 # Assignment-1
 

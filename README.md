@@ -45,9 +45,9 @@ and stitch them into a seamless panorama.
    - **The number of coins detected for this image is correct: 8**<br> ![Result1](ResultsForGit/Result1.png) 
 
 - **Result 2**
-   - **The number of coins detected for this image is correct: 2**<br> ![Result2](https://github.com/keshavv79/VR_Assignment1_Varsha_IMT2022506/blob/main/ResultsForGit/Result2.png)
+   - **The number of coins detected for this image is correct: 2**<br> ![Result2](ResultsForGit/Result2.png)
 - **Result 3**
-   - **The number of coins detected for this image is incorrect: 5** <br> ![Result3](https://github.com/keshavv79/VR_Assignment1_Varsha_IMT2022506/blob/main/ResultsForGit/Result3.png)
+   - **The number of coins detected for this image is incorrect: 5** <br> ![Result3](ResultsForGit/Result3.png)
 <br>The coin detection algorithm fails in certain cases, like image 3, due to poor contrast between coins and the background, making thresholding ineffective. Uneven lighting and
 shadows cause intensity variations, leading to misclassification of coins. Noise in the
 image creates false contours, affecting segmentation, while overlapping coins are sometimes detected as a single object due to the lack of a separation mechanism like watershed
@@ -61,21 +61,21 @@ threshold is too high or count noise if it’s too low.
 - **Loading the images**: Three images were captured using my phone camera for
     image stitching. Below are the three images taken:<br>
   - **Image 1**
-  ![Image1](https://github.com/keshavv79/VR_Assignment1_Varsha_IMT2022506/blob/main/Question2Images/First.jpg) <br>
+  ![Image1](Question2Images/First.jpg) <br>
 
    - **Image 2**
-    ![Image2](https://github.com/keshavv79/VR_Assignment1_Varsha_IMT2022506/blob/main/Question2Images/second.jpg)<br>
+    ![Image2](Question2Images/second.jpg)<br>
   - **Image 3**
-    ![Image3](https://github.com/keshavv79/VR_Assignment1_Varsha_IMT20225060/blob/main/Question2Images/third.jpg)<br>
+    ![Image3](Question2Images/third.jpg)<br>
 
 - **Feature Detection**: ORB: Oriented Fast and Rotated BRIEFwas used to detect keypoints in the image. Here are all the keypoints in red: <br>
   - **Image 1 with keypoints**
-  ![Image1Keypoint](https://github.com/keshavv79/VR_Assignment1_Varsha_IMT2022506/blob/main/Q2Outputs/keypoints_1.png) <br>
+  ![Image1Keypoint](Q2outputs/keypoints_1.png) <br>
 
    - **Image 2 with keypoints**
-    ![Image2Keypoint](https://github.com/keshavv79/VR_Assignment1_Varsha_IMT2022506/blob/main/Q2Outputs/keypoints_2.png)<br>
+    ![Image2Keypoint](Q2outputs/keypoints_2.png)<br>
   - **Image 3 with keypoints**
-    ![Image3Keypoint](https://github.com/keshavv79/VR_Assignment1_Varsha_IMT2022506/blob/main/Q2Outputs/keypoints_3.png)<br>
+    ![Image3Keypoint](Q2outputs/keypoints_3.png)<br>
 
 
 
@@ -84,10 +84,10 @@ threshold is too high or count noise if it’s too low.
     a single stitched image. The image formed using this looks like:
 
   - **Stitched image with messed up borders**
-    ![SitchedImage](https://github.com/keshavv79/VR_Assignment1_Varsha_IMT2022506/blob/main/Q2Outputs/stitchedOutput.png)<br>
+    ![SitchedImage](Q2outputs/stitchedOutput.png)<br>
     
   - **Stitched image**:
-    ![SitchedImage](https://github.com/keshavv79/VR_Assignment1_Varsha_IMT2022506/blob/main/Q2Outputs/stitchedOutputProcessed.png)<br>
+    ![SitchedImage](Q2outputs/stitchedOutputProcessed.png)<br>
     To correct the distorted borders, a black border of width 5 was added around the
 stitched image. The image was then converted to grayscale and thresholding was
 applied to separate the main stitched region from the background.

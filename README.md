@@ -2,9 +2,9 @@
 
 # Assignment-1
 
-<h3 align="center">Keshav Goyal</h3>
-<h3 align="center">IMT2022560</h3>
-<h3 align="center">Keshav.Goyal560@iiitb.ac.in</h3>
+<h3 align="center">Varsha Yamsani</h3>
+<h3 align="center">IMT2022506</h3>
+<h3 align="center">Yamsani.Varsha@iiitb.ac.in</h3>
 
 ## Introduction
 

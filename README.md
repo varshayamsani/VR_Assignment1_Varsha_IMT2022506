@@ -47,7 +47,7 @@ and stitch them into a seamless panorama.
 - **Result 2**
    - **The number of coins detected for this image is correct: 2**<br> ![Result2](ResultsForGit/Result2.png)
 - **Result 3**
-   - **The number of coins detected for this image is incorrect: 5** <br> ![Result3](ResultsForGit/Result3.png)
+   - **The number of coins detected for this image is incorrect: 4** <br> ![Result3](ResultsForGit/Result3.png)
 <br>The coin detection algorithm fails in certain cases, like image 3, due to poor contrast between coins and the background, making thresholding ineffective. Uneven lighting and
 shadows cause intensity variations, leading to misclassification of coins. Noise in the
 image creates false contours, affecting segmentation, while overlapping coins are sometimes detected as a single object due to the lack of a separation mechanism like watershed
